@@ -1,3 +1,6 @@
+import homeImg from "/src/assets/restaurantPhoto.jpg"
+
+
 export function initialPageLoad(){
     const contentDiv = document.querySelector("#content");
 
@@ -9,8 +12,8 @@ export function initialPageLoad(){
     contentDiv.appendChild(createh1)
 
     const image = document.createElement('img');
-    image.src = "restaurantPhoto.jpg";
-    image.classList.add("image");
+    image.src = homeImg;
+    image.classList.add("image-home");
     contentDiv.appendChild(image);
 
     const sectionTextOne = document.createElement("p");
@@ -27,5 +30,5 @@ export function initialPageLoad(){
     sectionTextThree.textContent = "Crazy fun";
     sectionTextThree.classList.add("section-text-three");
     contentDiv.appendChild(sectionTextThree);
-
+    
 }

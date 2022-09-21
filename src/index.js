@@ -1,6 +1,7 @@
 import { initialPageLoad } from "./initialPageLoad.js";
 import { menu } from "./menu.js";
 import { contact } from './contact.js';
+import './styles.css'
 
 console.log("This is my console log statement ha");
 initialPageLoad();
